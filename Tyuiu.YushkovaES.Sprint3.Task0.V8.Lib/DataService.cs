@@ -6,13 +6,16 @@ namespace Tyuiu.YushkovaES.Sprint3.Task0.V8.Lib
     {
         public double GetMultiplySeries(double value, int startValue, int stopValue)
         {
-            double s = 0;
-            int i;
-            for (i = startValue; i < stopValue; i++)
+            double p = 1; // Для произведения начинаем с 1
+            double cos4 = Math.Cos(4); // Вычисляем cos(4) один раз
+
+            for (int i = startValue; i <= stopValue; i++)
             {
-                s = s + (Math.Pow(value, i) + 1) * (Math.Cos(4));
+                p = p * (Math.Pow(value, i) + 1) * cos4;
             }
-            return Math.Round(s, 3);
+
+            return Math.Round(p, 3);
+
 
         }
     }
