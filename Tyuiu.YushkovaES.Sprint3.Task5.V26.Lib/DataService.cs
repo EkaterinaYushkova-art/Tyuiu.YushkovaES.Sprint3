@@ -12,12 +12,14 @@ namespace Tyuiu.YushkovaES.Sprint3.Task5.V26.Lib
             {
                 for (int k = startValue2; k <= stopValue2; k++)
                 {
-                    double y = (Math.Cos(x) + Math.Sin(k)) / x;
+                    // Правильная формула: (x^k + sin(k))
+                    double y = Math.Pow(x, k) + Math.Sin(k);
                     sum += y;
                 }
             }
 
             return Math.Round(sum, 3);
+
 
         }
     }
