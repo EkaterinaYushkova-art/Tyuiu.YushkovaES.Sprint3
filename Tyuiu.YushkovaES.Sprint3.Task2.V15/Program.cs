@@ -16,8 +16,8 @@ namespace Tyuiu.YushkovaES.Sprint3.Task2.V15
             Console.WriteLine("* Выполнила: Екатерина Е.С | ИСПб-25-1                                   *");
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                               *");
-            Console.WriteLine("* Написать программу используя цикл while                                *");
-            Console.WriteLine("* которая вычисляет сумму ряда по формуле при x = 5                      *");
+            Console.WriteLine("* Написать программу используя цикл do...while                           *");
+            Console.WriteLine("* которая вычисляет сумму ряда по формуле при a = 0.5                    *");
             Console.WriteLine("*                                                                        *");
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                       *");
