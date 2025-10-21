@@ -29,7 +29,7 @@ namespace Tyuiu.YushkovaES.Sprint3.Task5.V26
             int startValue1 = 1;
             int startValue2 = 1;
             int stopValue1 = 3;
-            int stopValue2 = 3;
+            int stopValue2 = 13;
 
             Console.WriteLine("Исходные данные:");
             Console.WriteLine("X = " + x);
