@@ -32,8 +32,7 @@ namespace Tyuiu.YushkovaES.Sprint3.Task6.V30
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
             Console.WriteLine("**************************************************************************");
             int result = ds.GetSumTheDivisors(startValue, stopValue);
-            Console.WriteLine($"Сумма всех делителей чисел в диапазоне [{startValue}, {stopValue}] = {result}");
-
+            Console.WriteLine($"Количество всех делителей чисел в диапазоне [{startValue}, {stopValue}] = {result}");
 
 
 

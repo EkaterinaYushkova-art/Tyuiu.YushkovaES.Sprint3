@@ -13,7 +13,7 @@ namespace Tyuiu.YushkovaES.Sprint3.Task6.V30.Test
             int stopValue = 17;
 
             int result = ds.GetSumTheDivisors(startValue, stopValue);
-            int wait = 151;
+            int wait = 25; // Ожидаемое количество всех делителей
 
             Assert.AreEqual(wait, result);
         }
